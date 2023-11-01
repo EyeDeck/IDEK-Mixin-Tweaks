@@ -1,0 +1,10 @@
+{
+    "required": true,
+    "minVersion": "0.6",
+    "package": "idek.mixintweaks.mixin",
+    "refmap": "idekmixintweaks.mixin.refmap.json",
+    "compatibilityLevel": "JAVA_8",
+    "mixins": [
+        "AdjCoreFix"
+    ]
+}
