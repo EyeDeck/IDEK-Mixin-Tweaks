@@ -14,7 +14,6 @@ public abstract class AdjCoreFix {
     public void calcEfficiency(CallbackInfo info) {
         // System.out.println("IDEK Mixin Tweaks calcEfficiency cancelled");
         info.cancel();
-        return;
         // this.efficiencyBoost = adjacency.getAdjacentUpgrade(this);
     }
 }
